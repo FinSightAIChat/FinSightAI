@@ -22,18 +22,25 @@ Figure 2 - Process Overview
 
 ## Using This Repository
 ### Folders
-* ```datasets``` folder contains documents downloaded for the prototype. It includes below folders and files:
-** ```news``` folder contains company news in PDF format
-* ```sec_filings``` folder contains recent 10K and 10Q files in HTML downloaded from SEC EDGAR API
-* ```pickle_files``` folder contains loaded documents with metadata
-* ```news_list.csv``` records urls and information of news to be downloaded
+```datasets``` folder contains documents downloaded for the prototype. It includes the following subfolders and files:
+* ```news``` folder contains company news in PDF format.
+* ```sec_filings``` folder contains recent 10-K and 10-Q files in HTML format downloaded from the SEC EDGAR API.
+* ```pickle_files``` stores pickled documents with metadata.
+* ```news_list.csv``` This CSV file records URLs and information of news articles to be crawled.
 
-```eval``` folder contains evaluation related files:
-* ```Eval_QA_Bank.xlsx``` contains queries and corresponding ground-truth answers as well as final evaluation results
+```eval``` folder contains evaluation-related files:
+* ```Eval_QA_Bank.xlsx``` includes queries, corresponding ground-truth answers, and final evaluation results.
 
 ```chroma_database``` folder contains 18 Chroma vector stores.
 
 
 ### Notebooks
+```1_data_collection_a_SEC_filings_metadata.ipynb```: Notebook for downloading SEC filings such as 10-K and 10-Q.
+```1_data_collection_b_news_crawler.ipynb```: Notebook for downloading company news.
+```2_data_preprocessing.ipynb```: Notebook for loading documents and adding metadata.
+```3_vector_store_creation.ipynb```: Notebook for creating and persisting vector stores using different chunking methods, chunk sizes, and embedding models.
+```4_RAG_LLM_evaluation.ipynb```: Notebook for evaluating response accuracy and efficiency across different vector stores and LLMs.
+```5_RAG_deployment_UI.ipynb```: Notebook for configuring the final RAG LLM and building a user interface (UI).
+
 
 
