@@ -36,10 +36,15 @@ Figure 2 - Process Overview
 
 ### Notebooks
 ```1_data_collection_a_SEC_filings_metadata.ipynb```: Notebook for downloading SEC filings such as 10-K and 10-Q.
+
 ```1_data_collection_b_news_crawler.ipynb```: Notebook for downloading company news.
+
 ```2_data_preprocessing.ipynb```: Notebook for loading documents and adding metadata.
+
 ```3_vector_store_creation.ipynb```: Notebook for creating and persisting vector stores using different chunking methods, chunk sizes, and embedding models.
+
 ```4_RAG_LLM_evaluation.ipynb```: Notebook for evaluating response accuracy and efficiency across different vector stores and LLMs.
+
 ```5_RAG_deployment_UI.ipynb```: Notebook for configuring the final RAG LLM and building a user interface (UI).
 
 
