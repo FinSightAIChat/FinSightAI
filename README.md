@@ -9,12 +9,16 @@ This project explores the potential of Retrieval-Augmented Generation (RAG) to d
 The methodology for building a Retrieval-Augmented Generation (RAG) pipeline for a financial chatbot involves several key steps, as illustrated in Figures 1 and 2. These steps ensure the system retrieves relevant context and generates accurate, coherent responses.
 
 Figure 1 illustrates the conceptual workflow of an LLM using RAG. The system combines the generative capabilities of large language models with the retrieval of domain-specific, up-to-date data to address complex and time-sensitive queries effectively.
+
 ![image](https://github.com/user-attachments/assets/0a87c2b4-191a-4cff-81f6-b92eb1c10f07)
+
 Figure 1 - How an LLM using RAG works
 
 Figure 2 illustrates the step-by-step process of implementing the RAG pipeline for the financial chatbot. Each step, described below, contributes to the system's ability to retrieve and process data efficiently.
+
 ![image](https://github.com/user-attachments/assets/936bae0a-b62d-4dbb-905e-039a293e4197)
+
 Figure 2 - Process Overview
 
-### Using This Repository
+## Using This Repository
 
