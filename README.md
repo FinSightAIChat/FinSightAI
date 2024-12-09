@@ -36,7 +36,7 @@ Figure 2 - Process Overview
 
 ```chroma_database``` folder contains 18 Chroma vector stores.
 
-Unsuccessfully uploaded folder can be accessed via Google Drive Shared Folder: https://drive.google.com/drive/u/0/folders/1Kl4a21psV3k0KFTuAD9KyqSJlzx89eNz?lfhs=2
+Unsuccessfully uploaded folders such as ```datasets``` and ```chroma_database``` can be accessed via Google Drive Shared Folder: https://drive.google.com/drive/u/0/folders/1Kl4a21psV3k0KFTuAD9KyqSJlzx89eNz?lfhs=2
 
 
 
