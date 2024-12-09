@@ -36,6 +36,9 @@ Figure 2 - Process Overview
 
 ```chroma_database``` folder contains 18 Chroma vector stores.
 
+Unsuccessfully uploaded folder can be accessed via Google Drive Shared Folder: https://drive.google.com/drive/u/0/folders/1Kl4a21psV3k0KFTuAD9KyqSJlzx89eNz?lfhs=2
+
+
 
 ### Notebooks
 ```1_data_collection_a_SEC_filings_metadata.ipynb```: Notebook for downloading SEC filings such as 10-K and 10-Q.
