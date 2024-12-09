@@ -21,4 +21,9 @@ Figure 2 illustrates the step-by-step process of implementing the RAG pipeline f
 Figure 2 - Process Overview
 
 ## Using This Repository
+### Folders
+```datasets``` folder contains documents downloaded for the prototype.
+
+### Notebooks
+
 
