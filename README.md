@@ -22,7 +22,17 @@ Figure 2 - Process Overview
 
 ## Using This Repository
 ### Folders
-```datasets``` folder contains documents downloaded for the prototype.
+```datasets``` folder contains documents downloaded for the prototype. It includes below folders and files:
+* ```news``` folder contains company news in PDF format
+* ```sec_filings``` folder contains recent 10K and 10Q files in HTML downloaded from SEC EDGAR API
+* ```pickle_files``` folder contains loaded documents with metadata
+* ```news_list.csv``` records urls and information of news to be downloaded
+
+```eval``` folder contains evaluation related files:
+* ```Eval_QA_Bank.xlsx``` contains queries and corresponding ground-truth answers as well as final evaluation results
+
+```chroma_database``` folder contains 18 Chroma vector stores.
+
 
 ### Notebooks
 
