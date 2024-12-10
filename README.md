@@ -52,6 +52,7 @@ Unsuccessfully uploaded folders such as ```datasets``` and ```chroma_database```
 ```4_RAG_LLM_evaluation.ipynb```: Notebook for evaluating response accuracy and efficiency across different vector stores and LLMs.
 
 ```5_RAG_deployment_UI.ipynb```: Notebook for configuring the final RAG LLM and building a user interface (UI).
+```6_sec_rag_chatbot_removedAPIkey.py```: Python file for creating an interactive web app with the RAG LLM
 
 
 
