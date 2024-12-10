@@ -31,10 +31,9 @@ Figure 2 - Process Overview
 * ```pickle_files``` stores pickled documents with metadata.
 * ```eval``` folder contains evaluation-related files:
 * ```Eval_QA_Bank.xlsx``` includes queries, corresponding ground-truth answers, and final evaluation results.
+* ```chroma_database``` folder contains 18 Chroma vector stores.
 
-```chroma_database``` folder contains 18 Chroma vector stores.
-
-Unsuccessfully uploaded folders such as ```datasets``` and ```chroma_database``` can be accessed via Google Drive Shared Folder: https://drive.google.com/drive/folders/10LlZ8WoE30icsf3_1s5JuNQ-Vsbfrfkl?usp=sharing
+Unsuccessfully uploaded folders such as ```chroma_database``` can be accessed via Google Drive Shared Folder: https://drive.google.com/drive/folders/10LlZ8WoE30icsf3_1s5JuNQ-Vsbfrfkl?usp=sharing
 
 
 
