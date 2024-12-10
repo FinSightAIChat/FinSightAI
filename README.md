@@ -25,11 +25,10 @@ Figure 2 - Process Overview
 
 ## Using This Repository
 ### Folders
-```datasets``` folder contains documents downloaded for the prototype. It includes the following subfolders and files:
 * ```news``` folder contains company news in PDF format.
+* * ```news_list.csv``` This CSV file under ```news``` folder records URLs and information of news articles to be crawled.
 * ```sec_filings``` folder contains recent 10-K and 10-Q files in HTML format downloaded from the SEC EDGAR API.
 * ```pickle_files``` stores pickled documents with metadata.
-* ```news_list.csv``` This CSV file records URLs and information of news articles to be crawled.
 
 ```eval``` folder contains evaluation-related files:
 * ```Eval_QA_Bank.xlsx``` includes queries, corresponding ground-truth answers, and final evaluation results.
