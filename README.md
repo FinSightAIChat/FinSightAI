@@ -26,11 +26,10 @@ Figure 2 - Process Overview
 ## Using This Repository
 ### Folders
 * ```news``` folder contains company news in PDF format.
-* * ```news_list.csv``` This CSV file under ```news``` folder records URLs and information of news articles to be crawled.
+  * ```news_list.csv``` This CSV file under ```news``` folder records URLs and information of news articles to be crawled.
 * ```sec_filings``` folder contains recent 10-K and 10-Q files in HTML format downloaded from the SEC EDGAR API.
 * ```pickle_files``` stores pickled documents with metadata.
-
-```eval``` folder contains evaluation-related files:
+* ```eval``` folder contains evaluation-related files:
 * ```Eval_QA_Bank.xlsx``` includes queries, corresponding ground-truth answers, and final evaluation results.
 
 ```chroma_database``` folder contains 18 Chroma vector stores.
